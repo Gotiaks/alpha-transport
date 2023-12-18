@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "popins" ;
+    src: url('./Poppins-Regular.ttf');
+}
+* {
+    font-family: "popins";
+    margin: auto;
+}
+
+
+.background{
+    background: rgb(6,4,0);
+    background: linear-gradient(0deg, rgba(6,4,0,1) 0%, rgba(38,163,171,1) 100%);
+    position: absolute !important;    
+    height: 100% !important; 
+    width: 100% !important;  
+    object-fit: cover !important;     
+    position: fixed !important;  
+    left: 0 !important;     
+    right: 0 !important;    
+    top: 0 !important;
+    bottom: 0 !important;    
+     z-index: -15 !important; 
+    }
+
+   h1{
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+    width: 600px;
+    color: #00B9F5 !important;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .entete{
+    display: flex;
+    background-color: #00B9F5;
+    flex-direction: row;
+    justify-content: space-between;
+    
+   }
+   .texte1{
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+    margin-right: -10px !important;
+    }
+
+   .droite{
+    margin-left: 530px;
+    width: 1000px;
+   }
+
+  h2{
+    margin-top: 150px !important;
+    font-size: 70px !important;
+    color: #00B9F5 !important;
+    display: flex;
+    text-align: center;
+    -webkit-text-stroke: 0.75px black;
+  }
+
+  .photo2{
+    display: flex;
+    margin-top: 150px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+  }
+
+  .list{
+    margin-top: 75px !important;
+    color: white;
+    justify-content: center;
+    margin: 10px;
+  }
+.deplacement{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    -webkit-text-stroke: 0.75px black;
+    margin-top: 55px;
+    margin-bottom: 15px;
+    
+    
+}
+  h3{
+    font-size: 50px !important;
+    -webkit-text-stroke: 1px black;
+    color: #00B9F5 !important;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .vehicule{
+    margin-top: 150px;
+    display: flex;
+  }
+
+  h4{
+    font-size: 50px !important;
+    color: #00B9F5 !important;
+    text-align: center;
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
+  }
+
+  .téléphone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    margin-left: 416px !important;
+  }
+
+  .menu1{
+    width: 1050px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .menu2{
+    width: 1050px;
+  }
+  .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  .list1{
+    font-size: 25px;
+    justify-content: space-around;
+    margin-top: 45px;
+    margin-bottom: 25px;
+  }
+
+  .voiture2{
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+  }
