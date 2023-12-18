@@ -55,7 +55,7 @@
     }
 
    .droite{
-    margin-left: 420px;
+    margin-left: 520px;
     width: 1000px;
    }
 
@@ -78,6 +78,13 @@
     color: white;
     justify-content: center;
     margin: 10px;
+  }
+
+  .list1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 75px;
   }
 .deplacement{
     font-size: 25px;
@@ -114,4 +121,8 @@
     align-items: center;
     margin-top: -150px;
     margin-left: 416px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
   }
