@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alpha Transport</title><link rel="stylesheet" href="./css transport de personne.css">
+    <title>Alpha Transport-contact</title><link rel="stylesheet" href="./contact.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
@@ -55,50 +55,9 @@
       </nav>
     </header>
 
+
+
     <section class="entete">
-        <div class="gauche">
-            <h1>Transport de Passagers</h1>
-            <p class="texte1">Nous vous accompagnons dans vos déplacements individuels ou collectifs quel que soit la distance 24/24</p>
-        </div>
-        
-        <div class="droite">
-            <img src="./voiture1.jpg" alt="" height="400px" width="800px" class="photo1">
-        </div>
-    </section>
-
-    <h2>Nous vous accompagnons dans
-      votre déplacements individuels
-      ou collectifs quel que soit
-      la distance 24/24</h2>
-    
-      
-        <img class="voiture2" src="./voiture2.jpg" width="1200px" alt="">
-      
-
-      <div class="list">
-        <h3>Nous vous accompagnons dans vos déplacements individuels ou collectifs quel que soit
-          la distance 24/24 :</h3>
-          <li class="deplacement"> • Mise à disposition de véhicules 9 places avec chauffeurs; </li>
-          <li class="deplacement"> • Trajets à la demande;</li>
-          <li class="deplacement"> • Service de transport à la personne avec bon de transport de la CPAM;</li>
-          <li class="deplacement"> • Déplacement professionnels dans le cadre de manifestations (salons,congrès,etc)</li>
-          <li class="deplacement"> • Mise en place de dessertes régulières dans le cadre du Plan de mobilités employeur.</li>
-      </div>
-      <h3 class="vehicule">Nos véhicules disponibles</h3>
-      <section class="vehicule">
-        
-        <img src="./Trafic-removebg-preview.png" alt="" class="renault">
-        <img src="./Trafic-removebg-preview.png" alt="" class="renault">
-        <img src="./Trafic-removebg-preview.png" alt="" class="renault">
-      </section>
-      <section class="vehicule">
-        <img src="./Trafic-removebg-preview.png" alt="" class="renault">
-        <img src="./Trafic-removebg-preview.png" alt="" class="renault">
-        <img src="./Trafic-removebg-preview.png" alt="" class="renault">
-      </section>
-
-      <h4>Intéressés par nos services ? <br> Contactez nous !</h4>
-      <section class="entete">
         <div class="gauche">
             <h1>Nous contacter</h1>
             <p class="texte1">Intéressés par nos services ? <br> Contactez nous !</p>
@@ -109,6 +68,126 @@
         </div>
     </section>
 
+    <h4>Intéressés par nos services ? <br> Contactez nous !</h4>
+
+
+<style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color:#00B9F5;
+      -webkit-text-stroke: 0.35px black;
+      
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      padding: 20px;
+      margin: 20px;
+      background-color: #00B9F5;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    #comment{
+        width: 300px;
+    }
+
+#myForm{
+    margin-top: 80px;
+}
+
+
+  </style>
+
+
+</head>
+<body>
+
+<form id="myForm">
+  <label for="category">Catégorie :</label>
+  <select id="category" name="category">
+    <option value="option1" >Veuillez selectionner une catégorie...</option>
+    <option value="Transport de passagers">Transport de passagers</option>
+    <option value="Transport mobilité réduite">Transport mobilité réduite</option>
+    <option value="Portage de repas">Portage de repas</option>
+    <option value="Aide à domicile">Aide à domicile</option>
+    <option value="Alpha bien-etre">Alpha bien-etre</option>
+    <!-- Ajoutez d'autres options au besoin -->
+  </select>
+
+  <label for="lastName">Nom :</label>
+  <input type="text" id="lastName" name="lastName" required>
+
+  <label for="firstName">Prénom :</label>
+  <input type="text" id="firstName" name="firstName" required>
+
+  <label for="email">Email :</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="phone">Téléphone :</label>
+  <input type="tel" id="phone" name="phone">
+
+  <label for="comment">Commentaire :</label>
+  <textarea id="comment" name="comment" rows="4"></textarea>
+
+  <button type="button" onclick="submitForm()">Envoyer</button>
+
+</form>
+
+<script>
+function submitForm() {
+  // Récupérer les valeurs des champs
+  var category = document.getElementById('category').value;
+  var firstName = document.getElementById('firstName').value;
+  var lastName = document.getElementById('lastName').value;
+  var email = document.getElementById('email').value;
+  var phone = document.getElementById('phone').value;
+  var comment = document.getElementById('comment').value;
+
+  // Afficher les données dans la console (vous pouvez ajuster cela selon vos besoins)
+  console.log('Catégorie:', category);
+  console.log('Prénom:', firstName);
+  console.log('Nom:', lastName);
+  console.log('Email:', email);
+  console.log('Téléphone:', phone);
+
+ // Construction de l'URL de l'e-mail
+ var mailtoLink = 'mailto:thomas22751@gmail.com' +
+    '?subject=' + encodeURIComponent('Nouveau formulaire de contact') +
+    '&body=' + encodeURIComponent('Catégorie: ' + category + ' \n' +
+                                  'Prénom: ' + firstName + '\n' +
+                                  'Nom: ' + lastName + '\n' +
+                                  'Email: ' + email + '\n' +
+                                  'Téléphone: ' + phone + '\n' +
+                                  'Commentaire: ' + comment);
+
+  // Ouvrir le client de messagerie par défaut avec le lien mailto
+  window.location.href = mailtoLink;
+
+
+}
+
+</script>
 
 
 
@@ -117,21 +196,5 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
