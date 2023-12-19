@@ -163,6 +163,29 @@ h1{
     margin-top: -440px;
     border: solid 1px black;
 }
+.chiffre{
+    display: flex !important;
+    flex-direction: row !important;
+    margin-top: 150px;
+    text-align: center;
+    background-color: #00b8f591;
+    border: solid 2px black;
+  }
+  .picto{
+    width: 250px !important;
+    height: 250px;
+    margin-bottom: 50px;
+    background-color: white;
+    margin-top: 50px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+  }
+
+  .chiffre p{
+    color: white;
+  }
 
 
 @media all and (max-width: 1000px){
@@ -250,5 +273,9 @@ h1{
         margin-right: 0px;
         margin-top: 100px;
         
+    }
+    .chiffre{
+        display: flex;
+        flex-direction: column !important;
     }
 }
