@@ -128,12 +128,13 @@
   @media all and (max-width: 1000px){
 
     .entete{
-        width: 375px !important;
+        width: 386px !important;
         display: flex;
         flex-direction: column;
         font-size: 20px;
         justify-content: center;
         align-items: center;
+        margin-left: -30px;
 
     }
     .gauche{
@@ -155,13 +156,7 @@
         
         
     }
-    .photo1{
-        width: 375px;
-        height: 300px;
-        margin-left: -420px !important;
-        margin-left: 0px;
-        margin-right: 0px;
-        }
+   
         .texte1{
             display: flex;
             text-align: center;
@@ -183,27 +178,17 @@
             width: 350px;
             justify-content: space-around;
         }
-        .renault{
-            width: 350px;
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
+       
         .téléphone{
-            width: 375px !important;
+            width: 381px !important;
             margin-left: 0px;
             margin-right: 0px;
         }
         .photo2{
-            width: 377px;
+            width: 386px;
             height: 300px;
             margin-left: -210px;
         }
-
-
-
-
-
-
 
 
         }
