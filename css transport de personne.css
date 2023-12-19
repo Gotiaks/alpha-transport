@@ -119,6 +119,9 @@
     display: flex;
     margin-top: 75px;
   }
+  .gauche a{
+    text-decoration: none;
+  }
 
   @media all and (max-width: 1000px){
 

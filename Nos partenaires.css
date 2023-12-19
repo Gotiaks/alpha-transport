@@ -102,7 +102,9 @@
         border-bottom-left-radius:50px ;
         border-bottom-right-radius:50px ;
     }
-    
+    .gauche a{
+        text-decoration: none;
+      }
     @media all and (max-width: 1000px){
 
         .entete{

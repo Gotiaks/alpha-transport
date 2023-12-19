@@ -117,7 +117,9 @@
           
             font: bold;
         }
-
+        .gauche a{
+            text-decoration: none;
+          }
 
         @media all and (max-width: 1000px){
 

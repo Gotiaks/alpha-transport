@@ -136,6 +136,14 @@
     justify-content: space-around;
   }
 
+  .voiture2{
+    display: flex;
+  }
+
+  .gauche a{
+    text-decoration: none;
+  }
+
   @media all and (max-width: 1000px){
 
     .entete{
@@ -185,6 +193,7 @@
 
         .voiture2{
             width: 375px;
+            
            
         }
         h3{
