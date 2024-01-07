@@ -10,7 +10,7 @@
 
 .background{
     background: rgb(6,4,0);
-    background: linear-gradient(0deg, rgba(6,4,0,1) 0%, rgba(38,163,171,1) 100%);
+    background: white;
     position: absolute !important;    
     height: 100% !important; 
     width: 100% !important;  
@@ -47,10 +47,10 @@
         justify-content: space-between;
         
        }
-       .photo1{
+     /*  .photo1{
         margin-left: 420px !important;
        }
-
+*/
     h2{
         color: #00B9F5 !important;
         font-size: 70px !important;
@@ -83,7 +83,7 @@
     .partenaire{
         display: flex;
         flex-direction: row;
-        margin-top: 150px;
+        margin-top: 150px;  
         text-align: center;
         justify-content: center;
         
@@ -107,6 +107,10 @@
     .gauche a{
         text-decoration: none;
       }
+
+
+/*  Début format responsive */
+
     @media all and (max-width: 1000px){
 
         .entete{

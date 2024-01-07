@@ -10,7 +10,7 @@
 
 .background{
     background: rgb(6,4,0);
-    background: linear-gradient(0deg, rgba(6,4,0,1) 0%, rgba(38,163,171,1) 100%);
+    background: white;
     position: absolute !important;    
     height: 100% !important; 
     width: 100% !important;  
@@ -96,7 +96,7 @@
     text-align: center;
   }
   .vehicule{
-    margin-top: 150px;
+   
     display: flex;
   }
 
@@ -113,7 +113,7 @@
     justify-content: center;
     align-items: center;
     margin-top: -150px;
-    margin-left: 416px !important;
+    
   }
   .voiture2{
     display: flex;
@@ -122,6 +122,9 @@
   .gauche a{
     text-decoration: none;
   }
+
+/*  Début format responsive */
+
 
   @media all and (max-width: 1000px){
 
@@ -187,6 +190,7 @@
             margin-top: 25px;
             margin-bottom: 25px;
         }
+        
         .téléphone{
             width: 375px !important;
             margin-left: 0px;
