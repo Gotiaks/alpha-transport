@@ -30,7 +30,7 @@
         border-top-right-radius: 50px;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
-        -webkit-text-stroke: 0.5px black;
+       color: black;
         
         width: 600px;
         color: #00B9F5 !important;
@@ -57,7 +57,6 @@
         justify-content: center !important ;
         display: flex;
         text-align: center !important;
-        -webkit-text-stroke: 0.75px black !important;
         margin-top: 150px !important;
     }
     .texte1{
@@ -89,11 +88,7 @@
         
     }
 
-    .descri{
-        margin-top: 50px;
-        margin-left: 50px;
-        -webkit-text-stroke: 0.25px black;
-    }
+    
 
     .part{
         

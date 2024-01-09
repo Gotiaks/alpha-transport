@@ -18,11 +18,11 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                 <!--un bouton-->
               <li class="nav-item mx-3 mt-5">
-                <a class="nav-link active" aria-current="page" href="./acceuil alpha.html">Acceuil</a>
+                <a class="nav-link active" aria-current="page" href="./acceuil alpha.html">Accueil</a>
               </li>
               <!--fin du bouton-->
               <li class="nav-item mx-3 mt-5">
-                <a class="nav-link active" aria-current="page" href="./qui somme nous alpha.html">Qui sommes nous ?</a>
+                <a class="nav-link active" aria-current="page" href="./qui somme nous alpha.html">Qui sommes nous?</a>
               </li>
               
               <!---->
@@ -58,75 +58,102 @@
     <section class="entete">
         <div class="gauche">
             <h1>Transport PMR</h1>
-            <p class="texte1">Nous vous accompagnons dans vos déplacements individuels ou collectifs quel que soit la distance 24/24</p>
-        </div>
-      
-     <div class="droite">
-            <img src="./voiture2.jpg" alt="" height="400px" width="800px" class="photo1">
+
         </div>
     </section>
+<br>
+
+
+    <img class="voiture2" src="./voiture2.jpg" width="800px" alt="">
+
 
     <h2>Nous assurons des trajets réguliers
         et des transports à la demande
-        de personne à mobilité réduite</h2>
-    
-      
-        <img class="voiture2" src="./csm_renault_kangoo_aba5100-2_occasion_handicap_393_05_8139fd1878.jpg" width="1200px" alt="">
-      
+        de personnes à mobilité réduite</h2>
+  
+      <br>
 
       <div class="list">
-        <h3>
-            Nous assurons des trajets réguliers et des transports à la demande de personnes à
-            mobilité réduite :</h3>
-          <li class="deplacement"> • Transport scolaire régulier en établissements spécialisés (IME, IMP, ESAT, etc.) ; TRANSPORT PMR : </li>
-          <li class="deplacement"> • Desserte domicile / travail de salariés à mobilité réduite </li>
-          <li class="deplacement"> • transport régulier d’élèves en situation de handicap en milieu scolaire ordinaire </li>
-          <li class="deplacement"> • Trajets à la demande de personnes à mobilité réduite</li>
-          
-      </div>
-      <h3 class="vehicule">Nos véhicules disponibles</h3>
-      <section class="vehicule">
-        
-        <img src="./Trafic-removebg-preview.png" alt="" class="renault">
-        <img src="./Trafic-removebg-preview.png" alt="" class="renault">
-        <img src="./Trafic-removebg-preview.png" alt="" class="renault">
-      </section>
-      <section class="vehicule">
-        <img src="./Trafic-removebg-preview.png" alt="" class="renault">
-        <img src="./Trafic-removebg-preview.png" alt="" class="renault">
-        <img src="./Trafic-removebg-preview.png" alt="" class="renault">
-      </section>
+          <li class="deplacement">• Transport scolaire régulier en établissements spécialisés (IME, IMP, ESAT, etc.)
+            <br>
+          • Desserte domicile / travail de salariés à mobilité réduite 
+          <br>
+          • Transport régulier d’élèves en situation de handicap en milieu scolaire ordinaire
+          <br> 
+         • Trajets à la demande de personnes à mobilité réduite</li>
+          <br>
 
-      <h4>Intéressés par nos services ? <br> Contactez nous !</h4>
-      <section class="entete">
-        <div class="gauche">
+          <h1 class="vehi">Nos véhicules</h1>
+
+          <div class="list">
+            <li class="deplacement">• Une gamme complète de minibus adaptés avec accès rampe
+              <br>
+            • Des véhicules récents et régulièrement entretenus
+            <br>
+            •  Une capacité de 1 à 4 fauteuils roulants + accompagnateurs
+            <br> 
+
+
+            <div class="img-container">
+              <div class="box">
+                <img src="./camionette.jpg" alt="" srcset="">
+              </div>
+              <div class="box">
+               <img src="../IMG/nike_1_low.brooklyn.jpeg" alt="" srcset="">
+              </div>
+              <div class="box">
+               <img src="../IMG/jordan_brave.jpg" alt="" srcset="">
+              </div>
+              <div class="box">
+               <img src="../IMG/nike_custom.webp" alt="" srcset="">
+              </div>
+              <div class="box">
+               <img src="../IMG/nike_1_low.webp" alt="" srcset="">
+              </div>
+              <div class="box">
+              <img src="../IMG/puma_lamelo.jpg" alt="" srcset="">
+              </div>
+            </div>
+
+
+<!-- voir carou avec img alpha -->
+      </div>
+    
+      <section class="entete1">
+        <div class="gauche1">
+          <p class="texte1">Intéressés par nos services ? <br></p>
           <a href="./contact.html"><h1>Nous contacter</h1></a>
-            <p class="texte1">Intéressés par nos services ? <br> Contactez nous !</p>
+           
         </div>
         
         <div class="téléphone">
-            <img src="./téléphone.png" alt="" width="800px" height="400px" class="photo2">
+            <img src="./téléphone.png" alt="" width="400px" height="350px" class="photo2">
         </div>
     </section>
 
 
+<!------------------------------------------------------------------>
+
+<script>
+  let imgContainer = document.querySelector(".img-container");
+
+  //Cette ligne de code utilise document.querySelector pour sélectionner l'élément avec la classe CSS .img-container. Cet élément est le conteneur des images qui seront animées.
+
+setInterval(() => {
+//La fonction setInterval est utilisée pour exécuter une fonction de manière répétée à intervalles réguliers. Dans ce cas, la fonction est exécutée toutes les 2500 millisecondes (2,5 secondes).
+let last = imgContainer.firstElementChild;
+//À chaque itération de l'intervalle, la première image (firstElementChild) du conteneur (imgContainer) est extraite avec last = imgContainer.firstElementChild.
+last.remove();
+//Ensuite, la fonction remove() est utilisée pour retirer cette première image du DOM.
+imgContainer.appendChild(last);
+//Enfin, la première image retirée est ajoutée à la fin du conteneur avec imgContainer.appendChild(last). Cela a pour effet de déplacer la première image à la fin, créant ainsi une rotation circulaire des images dans le conteneur.
+}, 2500);
+
+//En résumé, ce code crée une animation de rotation d'images dans un conteneur en déplaçant périodiquement la première image du début à la fin du conteneur. Cette rotation continue toutes les 2,5 secondes (2500 millisecondes), créant un effet de diaporama circulaire si plusieurs images sont présentes dans le conteneur.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</script>
 
 
 

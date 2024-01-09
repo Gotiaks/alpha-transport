@@ -45,6 +45,20 @@
     justify-content: space-between;
     
    }
+
+   .entete1{
+    display: flex;
+    background-color: #00B9F5;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50vh;
+    
+   }
+   .entete1 a{
+  text-decoration: none;
+    
+   }
+
    .texte1{
     display: flex;
     color: white;
@@ -61,11 +75,11 @@
 
   h2{
     margin-top: 150px !important;
-    font-size: 70px !important;
+    font-size: 50px !important;
     color: #00B9F5 !important;
     display: flex;
     text-align: center;
-    -webkit-text-stroke: 0.75px black;
+    
   }
 
   .photo2{
@@ -75,7 +89,7 @@
 
   .list{
     margin-top: 75px !important;
-    color: white;
+    color: rgb(31, 30, 30);
     justify-content: center;
     margin: 10px;
   }
@@ -84,13 +98,10 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    -webkit-text-stroke: 0.75px black;
-    
-    
+  
 }
   h3{
     font-size: 50px !important;
-    -webkit-text-stroke: 1px black;
     color: #00B9F5 !important;
     justify-content: center;
     text-align: center;
